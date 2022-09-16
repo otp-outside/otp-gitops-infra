@@ -255,3 +255,16 @@ rules:
       - read
       - update
       - delete
+  - apiGroups:
+      - extensions.hive.openshift.io
+    resources: 
+      - agentclusterinstalls 
+    verbs:
+      - create
+      - read
+      - update
+      - delete
+
+
+
+      
