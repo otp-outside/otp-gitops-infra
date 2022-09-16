@@ -220,6 +220,8 @@ rules:
       - agent-install.openshift.io
     resources:
       - agentserviceconfigs
+      - infraenvs
+      - agentclusterinstalls
     verbs:
       - create
       - read
@@ -239,6 +241,15 @@ rules:
     resources: 
       - managedclusters
       - managedclustersets
+    verbs:
+      - create
+      - read
+      - update
+      - delete
+  - apiGroups:
+      - metal3.io
+    resources: 
+      - baremetalhosts 
     verbs:
       - create
       - read
