@@ -231,6 +231,7 @@ rules:
   - apiGroups:
       - agent-install.openshift.io
     resources:
+      - nmstateconfigs
       - agentserviceconfigs
     verbs:
       - create
