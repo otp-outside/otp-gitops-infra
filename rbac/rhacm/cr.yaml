@@ -256,6 +256,7 @@ rules:
       - read
       - update
       - delete
+      - patch
   - apiGroups:
       - extensions.hive.openshift.io
     resources: 
