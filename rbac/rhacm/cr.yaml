@@ -63,6 +63,7 @@ rules:
       - clusterpools/scale
       - clusterclaims
       - clusterimagesets
+      - hiveconfigs
     verbs:
       - get
       - update
