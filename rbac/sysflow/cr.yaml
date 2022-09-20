@@ -7,6 +7,7 @@ rules:
       - create 
       - get 
       - list
+      - patch
     apiGroups: 
       - security.openshift.io
     resources: 
